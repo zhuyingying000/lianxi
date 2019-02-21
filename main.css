@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #abe9ff;
+}
+
+.outline {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: pink;
+}
+.container{
+    width:500px;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding:50px;
+    display: none;
+}
+
+/*bootstorp样式*/
+.container-small{
+    width:500px;
+}
